@@ -10,3 +10,5 @@ def load_master_hash() -> str:
             return f.read().strip()
     except FileNotFoundError:
         return None
+def none():
+    pass
