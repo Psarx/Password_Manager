@@ -23,7 +23,7 @@
 
 ## 📝 Installation
 
-
+```bash
 git clone https://github.com/YOUR_USERNAME/password-manager.git
 cd password-manager
 python3 -m venv venv
