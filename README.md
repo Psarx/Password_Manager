@@ -30,8 +30,9 @@ python3 -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python3 main.py
-
+```
 📁 Project Structure
+```bash
 password_manager/
 ├── main.py         # CLI interface
 ├── storage.py      # File/database operations
@@ -39,29 +40,22 @@ password_manager/
 ├── password_gen.py # Random password generator
 ├── requirements.txt
 └── README.md
+```
 🔐 Security Notes
-
+```bash
 Master password hashed with PBKDF2 + salt
-
 Credentials encrypted using AES-256
-
 Local storage only, no cloud syncing
-
 Minimal attack surface, CLI-only interface
-
+```
 💻 How It Works
-
+```bash
 Set master password → hashed + salted
-
 Login → verify master password
-
 Add credentials → AES-256 encryption
-
 Retrieve credentials → decrypted after login
-
 Password generator → create strong random passwords
-
+```
 🧑‍💻 Author
-
 Gautham Prasanth – Cybersecurity & Python Enthusiast
-<p align="center"> Made with ❤️ & 🔒 </p> ```
+<p align="center"> Made with ❤️ & 🔒 </p> 
