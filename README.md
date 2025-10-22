@@ -1,3 +1,19 @@
+<!-- flicker overlay for neon effect -->
+<rect x="-10" y="-64" width="1100" height="120" fill="url(#g1)" opacity="0.06">
+<animate attributeName="opacity" values="0.06;0.18;0.06" dur="3s" repeatCount="indefinite"/>
+</rect>
+
+
+<!-- subtle glitch bars -->
+<rect x="0" y="-38" width="1200" height="8" fill="#00ffa0" opacity="0.02">
+<animate attributeName="x" values="0;10;0" dur="2.4s" repeatCount="indefinite"/>
+</rect>
+
+
+<!-- top tagline -->
+<text x="0" y="36" font-family="'Roboto Mono', monospace" font-size="16" fill="#b7ffea" opacity="0.9">
+AES-256 · PBKDF2 · Local-only
+</text>
 <h1 align="center">🔒 Secure CLI Password Manager</h1>
 <p align="center">
   Python CLI | AES Encryption | PBKDF2 Master Password
